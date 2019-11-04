@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>博客详情</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="./static/css/me.css">
+</head>
+<body>
+<!--导航 -->
+<nav class="ui inverted attached segment m-padded-tb-mini">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i> 首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i> 标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i> 归档</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i> 关于我</a>
+            <div class="m-item right item m-mobile-hide">
+                <div class="ui icon input">
+                    <input type="text" placeholder="Search....">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="menuToggle" href="#" class="ui black icon button m-top-right m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+<br>
+<!--中间内容-->
+<div class="m-container-small m-padded-tb-massive">
+    <div class="ui container">
+        <!--头部-->
+        <div class="ui top attached  segment">
+            <div class="ui  grid">
+                <div class="eleven wide column">
+                    <div class="ui mini horizontal link list">
+                        <div class="item">
+                            <img src="https://picsum.photos/100/100" alt="" class="ui avatar image">
+                            <div class="content"><a href="#" class="header">张俊栋</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <i class="calendar icon"></i> 2019.11.02
+                        </div>
+                        <div class="item">
+                            <i class="eye icon"></i> 1234
+                        </div>
+                    </div>
+                </div>
+                <div class="right aligned five wide column">
+                    <!--                    <a href="#" class="ui teal basic label m-padded-mini m-text-thin">认知升级</a>-->
+                </div>
+            </div>
+        </div>
+        <!--图片区域-->
+        <div class="ui attached segment">
+            <img src="https://picsum.photos/800/400" alt="" class="ui fluid rounded image">
+        </div>
+        <!--内容-->
+        <div class="ui attached segment">
+            <!--标签-->
+            <div class="ui right aligned basic segment m-padded-tb-mini">
+                <div class="ui orange basic label">原创</div>
+            </div>
+            <!--标题-->
+            <h2 class="ui center aligned header">关于刻意练习的清单</h2>
+            <!--内容-->
+            <div id="content" class="m-padded-lr-responsive m-padded-tb-large">
+                <p>建立刻意练习的实践清单，首先应明确以下概念：</p>
+                <h3>1、关于一万小时定律</h3>
+                <p>作家格拉德威尔在《异类》指出：“人们眼中的天才之所以卓越非凡，并非天资超人一等，而是付出了持续不断的努力。1万小时的锤炼是任何人从平凡变成世界级大师的必要条件。”
+                    这个“一万小时定律”可以在成功者身上得到验证，但反向而言，是否任何人经过1万小时努力，就能成为行业专家？结论是，不一定。
+                    重复单调操练和努力1万小时只能让你成为熟练工，而不是专家。专家具有超越常人的眼界、知识和能力，而很多人在1万小时努力后只能达到常人中的中高层而已。 卖油翁还是卖油翁，唯手熟尔。</p>
+                <h3>2、关于刻意练习适用的领域</h3>
+                <p>很多人想通过刻意练习实现成功，但遗憾地告诉你，经刻意练习而成功并不适用所有行业和领域。 适用的行业或领域需具有以下特征： 绩效测量需要具有明显的客观性，也就是要有具体的数据支持和评价；
+                    保持足够的竞争性，参与者明确认知压力和动力，树立强烈的动机； 行业或领域已成一定规模，相关技能得到长时间的培养，并形成系统； 有专业的导师和教练，训练方法得到了长期的发展和实践。
+                    这些领域类似的有体育、音乐、象棋、舞蹈，而不适合的领域也蛮多的，例如企业管理、教师、咨询等，无法通过刻意练习达到理想的成功。</p>
+            </div>
+            <!--标签-->
+            <div class="m-padded-lr-responsive m-padded-tb-small">
+                <div class="ui basic teal left pointing label">方法论</div>
+            </div>
+            <!--赞赏-->
+            <div class="ui center aligned basic segment">
+                <button id="payBtn" class="ui orange basic circular button">赞赏</button>
+            </div>
+            <div class="ui payQR flowing popup transition hidden">
+                <div class="ui orange basic label">
+                    <div class="ui images" style="font-size: inherit!important;">
+                        <div class="image">
+                            <img src="./static/images/wechat.png" alt="" class="ui rounded bordered image"
+                                 style="width: 120px">
+                            <div>支付宝</div>
+                        </div>
+                        <div class="image">
+                            <img src="./static/images/wechat.png" alt="" class="ui rounded bordered image"
+                                 style="width: 120px">
+                            <div>微信</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--博客信息-->
+        <div class="ui attached positive message">
+            <div class="ui middle aligned grid">
+                <div class="eleven wide column">
+                    <ui class=" list">
+                        <li>作者：张俊栋（联系作者）</li>
+                        <li>发表时间：2019-11-04 12:39</li>
+                        <li>版权声明：自由转载-非商用-非衍生-保持署名（创意共享3.0许可证）</li>
+                        <li>公众号转载：请在文末添加作者公众号二维码</li>
+                    </ui>
+                </div>                
+                <div class="five wide column">
+                    <img src="./static/images/wechat.png" alt="" class="ui right floated rounded bordered image" style="width: 110px">
+                </div>
+            </div>
+        </div>
+        <!--留言-->
+        <div class="ui bottom attached segment">
+            <div class="ui teal segment">
+                <div class="ui comments">
+                    <h3 class="ui dividing header">Comments</h3>
+                    <div class="comment">
+                        <a class="avatar">
+                            <img src="https://picsum.photos/100/80">
+                        </a>
+                        <div class="content">
+                            <a class="author">Matt</a>
+                            <div class="metadata">
+                                <span class="date">Today at 5:42PM</span>
+                            </div>
+                            <div class="text">
+                                How artistic!
+                            </div>
+                            <div class="actions">
+                                <a class="reply">Reply</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a class="avatar">
+                            <img src="https://picsum.photos/100/80">
+                        </a>
+                        <div class="content">
+                            <a class="author">Elliot Fu</a>
+                            <div class="metadata">
+                                <span class="date">Yesterday at 12:30AM</span>
+                            </div>
+                            <div class="text">
+                                <p>This has been very useful for my research. Thanks as well!</p>
+                            </div>
+                            <div class="actions">
+                                <a class="reply">Reply</a>
+                            </div>
+                        </div>
+                        <div class="comments">
+                            <div class="comment">
+                                <a class="avatar">
+                                    <img src="https://picsum.photos/100/80">
+                                </a>
+                                <div class="content">
+                                    <a class="author">Jenny Hess</a>
+                                    <div class="metadata">
+                                        <span class="date">Just now</span>
+                                    </div>
+                                    <div class="text">
+                                        Elliot you are always so right :)
+                                    </div>
+                                    <div class="actions">
+                                        <a class="reply">Reply</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a class="avatar">
+                            <img src="https://picsum.photos/100/80">
+                        </a>
+                        <div class="content">
+                            <a class="author">Joe Henderson</a>
+                            <div class="metadata">
+                                <span class="date">5 days ago</span>
+                            </div>
+                            <div class="text">
+                                Dude, this is awesome. Thanks so much
+                            </div>
+                            <div class="actions">
+                                <a class="reply">Reply</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <form class="ui reply form">
+                <div class="field">
+                    <textarea class="m-opacity-mini m-text-gray">请输入评论信息...</textarea>
+                </div>
+                <div class="fields">
+                    <div class="field m-mobile-wide m-margin-bottom-small">
+                        <div class="ui left icon input">
+                            <i class="user icon"></i>
+                            <input type="text" name="nickname" placeholder="姓名">
+                        </div>
+                    </div>
+                    <div class="field m-mobile-wide m-margin-bottom-small">
+                        <div class="ui left icon input">
+                            <i class="mail icon"></i>
+                            <input type="text" name="email" placeholder="邮箱">
+                        </div>
+                    </div>
+                    <div class="field m-mobile-wide m-margin-bottom-small">
+                        <div class="ui m-mobile-wide teal basic button">
+                            <i class="icon edit"></i> 评论
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+<br>
+<br>
+<!--底部-->
+<footer class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="./static/images/wechat.png" class="ui rounded image" alt="" style="width: 100px">
+                    </div>
+                </div>
+
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header m-text-thin m-spaced">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item m-text-thin m-spaced ">用户故事 （User Story）</a>
+                    <a href="#" class="item m-text-thin m-spaced ">关于刻意练习的清单</a>
+                    <a href="#" class="item m-text-thin m-spaced ">失败要趁早</a>
+
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header m-text-thin m-spaced ">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item m-text-thin m-spaced ">QQ:925767666</a>
+                    <a href="#" class="item m-text-thin m-spaced ">Email:925767666@qq.com</a>
+
+                </div>
+            </div>
+            <div class="five wide column">
+                <h4 class="ui inverted header m-text-thin m-spaced">Blog</h4>
+                <p class="m-text-thin m-spaced m-darkgray">西南财经大学顶级工具人</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p class="m-text-thin m-spaced m-darkgray">Copyright © 2019 Blog Designed by ZJD</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script>
+    $('#menuToggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    })
+
+    $('#payBtn').popup({
+        popup: $('.payQR.popup'),
+        on: 'click',
+        position: 'bottom center'
+    })
+</script>
+</body>
+</html>
