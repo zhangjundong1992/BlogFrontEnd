@@ -25,7 +25,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -48,29 +48,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.types.html">
-    <configuration name="blog.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/blog.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.archives.html">
+    <configuration name="archives.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/archives.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bolg/blog.html" useBuiltInWebServerPort="true">
+    <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/blog.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bolg/index.html" useBuiltInWebServerPort="true">
+    <configuration name="tags.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/tags.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="types.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/types.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.blog.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.tags.html" />
+      <item itemvalue="JavaScript Debug.types.html" />
+      <item itemvalue="JavaScript Debug.archives.html" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.types.html" />
-        <item itemvalue="JavaScript Debug.blog.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.archives.html" />
         <item itemvalue="JavaScript Debug.blog.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.tags.html" />
+        <item itemvalue="JavaScript Debug.types.html" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +94,8 @@
       <workItem from="1572661505534" duration="32801000" />
       <workItem from="1572828335982" duration="16543000" />
       <workItem from="1572966084114" duration="2951000" />
-      <workItem from="1573026084840" duration="367000" />
+      <workItem from="1573026084840" duration="3342000" />
+      <workItem from="1573031961304" duration="2544000" />
     </task>
     <servers />
   </component>
