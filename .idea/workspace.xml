@@ -16,6 +16,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1T2cCVEio8Hwuu035fsrw43Iuiq" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -25,11 +28,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Web\Bolg" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Web\Bolg\static\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Blog\FrontEnd" />
+      <recent name="D:\Web\Bolg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -44,15 +48,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.types.html">
+    <configuration name="blog.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/blog.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bolg/blog.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bolg/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="types.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/types.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.types.html" />
+        <item itemvalue="JavaScript Debug.blog.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.blog.html" />
       </list>
@@ -70,10 +86,25 @@
       <updated>1572661503518</updated>
       <workItem from="1572661505534" duration="32801000" />
       <workItem from="1572828335982" duration="16543000" />
+      <workItem from="1572966084114" duration="2951000" />
+      <workItem from="1573026084840" duration="367000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

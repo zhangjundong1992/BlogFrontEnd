@@ -1,3 +1,10 @@
+/*---------shadow----------*/
+.m-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
+/*---------body---------*/
 body{
     background: url("../images/bg.png");
 }
@@ -71,6 +78,11 @@ body{
 }
 
 /*--------margin-----------*/
+.m-margin-small{
+
+    margin: 0.5em!important;
+}
+
 .m-margin-tb-tiny {
     margin-top: 0.3em !important;
     margin-bottom: 0.3em !important;
@@ -126,7 +138,7 @@ body{
     display: inline-block !important;
 }
 
-/*-----------container-----------*/
+/*---------container---------*/
 .m-container {
     max-width: 72em;
     margin: auto;
@@ -137,7 +149,7 @@ body{
     margin: auto;
 }
 
-/*------颜色--------*/
+/*-------------颜色------------*/
 .m-black {
     color: #333333 !important;
 }
@@ -146,16 +158,14 @@ body{
     color: darkgray;
 }
 
-/*-------position---------*/
+/*----------position----------*/
 .m-top-right {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-/*---------------mobile-------------------*/
-
-
+/*----------mobile------------*/
 .m-mobile-show {
     display: none !important;
 }
@@ -164,7 +174,6 @@ body{
     .m-mobile-wide{
         width: 100%;
     }
-
 
     .m-mobile-hide {
         display: none !important;
