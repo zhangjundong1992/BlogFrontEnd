@@ -17,23 +17,34 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="ProjectId" id="1T2cCVEio8Hwuu035fsrw43Iuiq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Web\Bolg\static\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Blog\FrontEnd\admin" />
       <recent name="D:\Blog\FrontEnd" />
       <recent name="D:\Web\Bolg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Blog\FrontEnd\static" />
+      <recent name="D:\Blog\FrontEnd\static\editormd" />
+      <recent name="D:\Blog\FrontEnd" />
+      <recent name="D:\Blog\FrontEnd\static\lib\editormd\css" />
+      <recent name="D:\Blog\FrontEnd\static\lib\editormd" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -48,35 +59,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.archives.html">
-    <configuration name="archives.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/archives.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.blog.html">
+    <configuration name="blog-input.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/admin/blog-input.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/blog.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/index.html" useBuiltInWebServerPort="true">
+    <configuration name="blogs.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/admin/blogs.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="tags.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/tags.html" useBuiltInWebServerPort="true">
+    <configuration name="simple.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/simple.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="types.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/types.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.blog.html" />
-      <item itemvalue="JavaScript Debug.index.html (1)" />
-      <item itemvalue="JavaScript Debug.tags.html" />
       <item itemvalue="JavaScript Debug.types.html" />
-      <item itemvalue="JavaScript Debug.archives.html" />
+      <item itemvalue="JavaScript Debug.blogs.html" />
+      <item itemvalue="JavaScript Debug.blog-input.html" />
+      <item itemvalue="JavaScript Debug.blog.html" />
+      <item itemvalue="JavaScript Debug.simple.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.archives.html" />
         <item itemvalue="JavaScript Debug.blog.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.tags.html" />
+        <item itemvalue="JavaScript Debug.simple.html" />
+        <item itemvalue="JavaScript Debug.blog-input.html" />
+        <item itemvalue="JavaScript Debug.blogs.html" />
         <item itemvalue="JavaScript Debug.types.html" />
       </list>
     </recent_temporary>
@@ -96,6 +107,10 @@
       <workItem from="1572966084114" duration="2951000" />
       <workItem from="1573026084840" duration="3342000" />
       <workItem from="1573031961304" duration="2544000" />
+      <workItem from="1573384147740" duration="528000" />
+      <workItem from="1573716416347" duration="6370000" />
+      <workItem from="1573743109098" duration="5440000" />
+      <workItem from="1573796589725" duration="5157000" />
     </task>
     <servers />
   </component>
@@ -114,5 +129,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
