@@ -2,12 +2,12 @@
     overflow-y: auto
 }
 
-.toc > .toc-list {
+.toc > ul {
     overflow: hidden;
     position: relative
 }
 
-.toc > .toc-list li {
+.toc > ul li {
     list-style: none
 }
 
@@ -17,16 +17,14 @@
     padding-left: 10px
 }
 
-/*自定义生成目录样式*/
-.toc-list li a {
+.toc-list li a{
     display: block;
     padding: 4px 0;
     font-weight: 300;
 }
 
-/*鼠标悬停*/
-.toc-list li a：hover {
-    color: teal!important;
+.toc-list li a:hover{
+    color: teal;
 }
 
 a.toc-link {
@@ -51,14 +49,14 @@ a.toc-link {
 
 .is-active-link {
     font-weight: 700;
-    color:teal!important;
+    color: teal!important;
 }
 
 .toc-link::before {
     background-color: #EEE;
     content: ' ';
     display: inline-block;
-    height: inherit;
+    height: 20px;
     left: 0;
     margin-top: -1px;
     position: absolute;

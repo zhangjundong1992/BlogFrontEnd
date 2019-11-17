@@ -29,24 +29,24 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lib/tocbot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lib/waypoints" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Blog\FrontEnd\static\lib\waypoints" />
+      <recent name="D:\Blog\FrontEnd\static\lib\qrcode" />
+      <recent name="D:\Blog\FrontEnd\static\lib\tocbot" />
+      <recent name="D:\Blog\FrontEnd\static\lib\typo" />
+      <recent name="D:\Blog\FrontEnd\admin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Blog\FrontEnd\static\lib\tocbot" />
       <recent name="D:\Blog\FrontEnd\static\lib\prism" />
       <recent name="D:\Blog\FrontEnd\static\css" />
       <recent name="D:\Blog\FrontEnd\static\lib\typo" />
       <recent name="D:\Blog\FrontEnd\static" />
-      <recent name="D:\Blog\FrontEnd\static\editormd" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Blog\FrontEnd\static\lib\tocbot" />
-      <recent name="D:\Blog\FrontEnd\static\lib\typo" />
-      <recent name="D:\Blog\FrontEnd\admin" />
-      <recent name="D:\Blog\FrontEnd" />
-      <recent name="D:\Web\Bolg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,9 +87,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.blog.html" />
+        <item itemvalue="JavaScript Debug.about.html" />
         <item itemvalue="JavaScript Debug.blogs.html" />
         <item itemvalue="JavaScript Debug.blog-input.html" />
-        <item itemvalue="JavaScript Debug.about.html" />
         <item itemvalue="JavaScript Debug.archives.html" />
       </list>
     </recent_temporary>
@@ -114,6 +114,7 @@
       <workItem from="1573743109098" duration="5440000" />
       <workItem from="1573796589725" duration="12966000" />
       <workItem from="1573951360589" duration="9616000" />
+      <workItem from="1573964765620" duration="9417000" />
     </task>
     <servers />
   </component>

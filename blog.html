@@ -4,39 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>博客详情</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" href="static/css/typo.css">
     <link rel="stylesheet" href="static/css/animate.css">
     <link rel="stylesheet" href="static/lib/prism/prism.css">
     <link rel="stylesheet" href="static/lib/tocbot/tocbot.css">
     <link rel="stylesheet" href="static/css/me.css">
 </head>
-<body>~~~~
+<body>
     <!--导航 -->
-    <nav id="header-container" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+    <nav id="header-container"
+         class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
         <div class="ui container">
             <div class="ui inverted secondary stackable menu">
                 <h2 class="ui teal header item">Blog</h2>
-                <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i> 首页</a>
-                <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
-                <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i> 标签</a>
-                <a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i> 归档</a>
-                <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i> 关于我</a>
+                <a href="#"
+                   class="m-item item m-mobile-hide"><i
+                        class="home icon"></i> 首页</a>
+                <a href="#"
+                   class="m-item item m-mobile-hide"><i
+                        class="idea icon"></i>分类</a>
+                <a href="#"
+                   class="m-item item m-mobile-hide"><i
+                        class="tags icon"></i> 标签</a>
+                <a href="#"
+                   class="m-item item m-mobile-hide"><i
+                        class="clone icon"></i> 归档</a>
+                <a href="#"
+                   class="m-item item m-mobile-hide"><i
+                        class="info icon"></i> 关于我</a>
                 <div class="m-item right item m-mobile-hide">
                     <div class="ui icon input">
-                        <input type="text" placeholder="Search....">
+                        <input type="text"
+                               placeholder="Search....">
                         <i class="search link icon"></i>
                     </div>
                 </div>
             </div>
         </div>
-        <a id="menuToggle" href="#" class="ui black icon button m-top-right m-mobile-show">
+        <a id="menuToggle"
+           href="#"
+           class="ui black icon button m-top-right m-mobile-show">
             <i class="sidebar icon"></i>
         </a>
     </nav>
     <br>
     <!--中间内容-->
-    <div class="m-container-small m-padded-tb-massive animated fadeIn">
+    <div id="waypoint" class="m-container-small m-padded-tb-massive animated fadeIn">
         <div class="ui container">
             <!--头部-->
             <div class="ui top attached  segment">
@@ -44,8 +59,11 @@
                     <div class="eleven wide column">
                         <div class="ui mini horizontal link list">
                             <div class="item">
-                                <img src="https://picsum.photos/100/100" alt="" class="ui avatar image">
-                                <div class="content"><a href="#" class="header">张俊栋</a>
+                                <img src="https://picsum.photos/100/100"
+                                     alt=""
+                                     class="ui avatar image">
+                                <div class="content"><a href="#"
+                                                        class="header">张俊栋</a>
                                 </div>
                             </div>
                             <div class="item">
@@ -57,13 +75,15 @@
                         </div>
                     </div>
                     <div class="right aligned five wide column">
-                        <!--                    <a href="#" class="ui teal basic label m-padded-mini m-text-thin">认知升级</a>-->
+                        <!--<a href="#" class="ui teal basic label m-padded-mini m-text-thin">认知升级</a>-->
                     </div>
                 </div>
             </div>
             <!--图片区域-->
             <div class="ui attached segment">
-                <img src="https://picsum.photos/800/400" alt="" class="ui fluid rounded image">
+                <img src="https://picsum.photos/800/400"
+                     alt=""
+                     class="ui fluid rounded image">
             </div>
             <!--内容-->
             <div class="ui attached segment ">
@@ -74,19 +94,25 @@
                 <!--标题-->
                 <h2 class="ui center aligned header">TYPO</h2>
                 <!--内容-->
-                <div id="content" class="js-toc-content typo typo-selection m-padded-lr-responsive m-padded-tb-large">
+                <div id="content"
+                     class="js-toc-content typo typo-selection m-padded-lr-responsive m-padded-tb-large">
                     <h2 id="section1">一、关于 <i class="serif">Typo.css</i></h2>
 
-                    <p><i class="serif">Typo.css</i> 的目的是，在一致化浏览器排版效果的同时，构建最适合中文阅读的网页排版。</p>
+                    <p><i class="serif">Typo.css</i>
+                        的目的是，在一致化浏览器排版效果的同时，构建最适合中文阅读的网页排版。</p>
                     <h4>现状和如何去做：</h4>
 
-                    <p class="typo-first">排版是一个麻烦的问题 <sup><a href="#appendix1"># 附录一</a></sup>，需要精心设计，而这个设计却是常被视觉设计师所忽略的。前端工程师更常看到这样的问题，但不便变更。因为在多个
+                    <p class="typo-first">排版是一个麻烦的问题 <sup><a href="#appendix1">#
+                        附录一</a></sup>，需要精心设计，而这个设计却是常被视觉设计师所忽略的。前端工程师更常看到这样的问题，但不便变更。因为在多个
                         OS 中的不同浏览器渲染不同，改动需要多的时间做回归测试，所以改变变得更困难。而像我们一般使用的
-                        Yahoo、Eric Meyer 和 Alice base.css 中采用的 Reset 都没有很好地考虑中文排版。<i class="serif">Typo.css</i>
+                        Yahoo、Eric Meyer 和 Alice base.css 中采用的 Reset
+                        都没有很好地考虑中文排版。<i class="serif">Typo.css</i>
                         要做的就是解决中文排版的问题。</p>
 
-                    <p><strong><i class="serif">Typo.css</i> 测试于如下平台：</strong></p>
-                    <table class="ui table" summary="Typo.css 的测试平台列表">
+                    <p><strong><i class="serif">Typo.css</i> 测试于如下平台：</strong>
+                    </p>
+                    <table class="ui table"
+                           summary="Typo.css 的测试平台列表">
                         <thead>
                         <tr>
                             <th>OS/浏览器</th>
@@ -150,22 +176,33 @@
 
                     <h4>中文排版的重点和难点</h4>
 
-                    <p>在中文排版中，HTML4 的很多标准在语义在都有照顾到。但从视觉效果上，却很难利用单独的 CSS 来实现，像<abbr title="在文字下多加一个点">着重号</abbr>（例：这里<em
-                            class="typo-em">强调一下</em>）。在 HTML4 中，专名号标签（<code>&lt;u&gt;</code>）已经被放弃，而
-                        HTML5 被<a href="http://html5doctor.com/u-element/">重新提起</a>。<i class="serif">Typo.css</i>
+                    <p>在中文排版中，HTML4 的很多标准在语义在都有照顾到。但从视觉效果上，却很难利用单独的 CSS
+                        来实现，像<abbr
+                                title="在文字下多加一个点">着重号</abbr>（例：这里<em
+                                class="typo-em">强调一下</em>）。在 HTML4
+                        中，专名号标签（<code>&lt;u&gt;</code>）已经被放弃，而
+                        HTML5 被<a
+                                href="http://html5doctor.com/u-element/">重新提起</a>。<i
+                                class="serif">Typo.css</i>
                         也根据实际情况提供相应的方案。我们重要要注意的两点是：</p>
                     <ol>
                         <li>语义：语义对应的用法和样式是否与中文排版一致</li>
                         <li>表现：在各浏览器中的字体、大小和缩放是否如排版预期</li>
                     </ol>
-                    <p>对于这些，<i class="serif">Typo.css</i> 排版项目的中文偏重注意点，都添加在附录中，详见：</p>
+                    <p>对于这些，<i class="serif">Typo.css</i>
+                        排版项目的中文偏重注意点，都添加在附录中，详见：</p>
                     <blockquote>
-                        <b>附录一</b>：<a href="#appendix1"><i class="serif">Typo.css</i> 排版偏重点</a>
+                        <b>附录一</b>：<a href="#appendix1"><i class="serif">Typo.css</i>
+                        排版偏重点</a>
                     </blockquote>
 
-                    <p>目前已有像百姓网等全面使用 <i class="serif">Typo.css</i> 的项目，测试平台的覆盖，特别是在<abbr title="手机、平板电脑等移动平台">移动端</abbr>上还没有覆盖完主流平台，希望有能力的同学能加入测试行列，或者加入到
+                    <p>目前已有像百姓网等全面使用 <i class="serif">Typo.css</i>
+                        的项目，测试平台的覆盖，特别是在<abbr
+                                title="手机、平板电脑等移动平台">移动端</abbr>上还没有覆盖完主流平台，希望有能力的同学能加入测试行列，或者加入到
                         <i class="serif">Typo.css</i>
-                        的开发。加入方法：<a href="https://github.com/sofish/Typo.css">参与 <i class="serif">Typo.css</i> 开发</a>。如有批评、建议和意见，也随时欢迎给在
+                        的开发。加入方法：<a href="https://github.com/sofish/Typo.css">参与
+                            <i class="serif">Typo.css</i>
+                            开发</a>。如有批评、建议和意见，也随时欢迎给在
                         Github 直接提 <a
                                 href="https://github.com/sofish/Typo.css/issues">issues</a>，或给<abbr
                                 title="Sofish Lin, author of Typo.css"
@@ -175,7 +212,8 @@
 
                     <h2 id="section2">二、排版实例：</h2>
 
-                    <p>提供2个排版实例，第一个中文实例来自于来自于<cite class="typo-unique">张燕婴</cite>的《论语》，由于古文排版涉及到的元素比较多，所以采用《论语》中《学而》的第一篇作为排版实例介绍；第2个来自到经典的
+                    <p>提供2个排版实例，第一个中文实例来自于来自于<cite
+                            class="typo-unique">张燕婴</cite>的《论语》，由于古文排版涉及到的元素比较多，所以采用《论语》中《学而》的第一篇作为排版实例介绍；第2个来自到经典的
                         Lorem Ipsum，并加入了一些代码和列表等比较具有代表性的排版元素。</p>
 
                     <h3 id="section2-1">例1：论语学而篇第一</h3>
@@ -198,7 +236,8 @@
 
                     <h4>译文</h4>
 
-                    <p>孔子说：「学了又时常温习和练习，不是很愉快吗？有志同道合的人从远方来，不是很令人高兴的吗？人家不了解我，我也不怨恨、恼怒，不也是一个有德的君子吗？」 </p>
+                    <p>
+                        孔子说：「学了又时常温习和练习，不是很愉快吗？有志同道合的人从远方来，不是很令人高兴的吗？人家不了解我，我也不怨恨、恼怒，不也是一个有德的君子吗？」 </p>
 
                     <h4>评析</h4>
 
@@ -209,86 +248,140 @@
                     <p>
                         此外，在对「人不知，而不愠」一句的解释中，也有人认为，「人不知」的后面没有宾语，人家不知道什么呢？当时因为孔子有说话的特定环境，他不需要说出知道什么，别人就可以理解了，却给后人留下一个谜。有人说，这一句是接上一句说的，从远方来的朋友向我求教，我告诉他，他还不懂，我却不怨恨。这样，「人不知」就是「人家不知道我所讲述的」了。这样的解释似乎有些牵强。</p>
 
-                    <p>总之，本章提出以学习为乐事，做到人不知而不愠，反映出孔子学而不厌、诲人不倦、注重修养、严格要求自己的主张。这些思想主张在《论语》书中多处可见，有助于对第一章内容的深入了解。</p>
+                    <p>
+                        总之，本章提出以学习为乐事，做到人不知而不愠，反映出孔子学而不厌、诲人不倦、注重修养、严格要求自己的主张。这些思想主张在《论语》书中多处可见，有助于对第一章内容的深入了解。</p>
 
                     <h3 id="section2-2">例2：英文排版</h3>
 
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.
+                        Lorem Ipsum has been
                         the industry's
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        standard dummy text ever since the 1500s, when an
+                        unknown printer took a
+                        galley of type and
                         scrambled it to make a
-                        type specimen book. It has survived not only five centuries, but also the leap into electronic
+                        type specimen book. It has survived not only five
+                        centuries, but also the
+                        leap into electronic
                         typesetting, remaining
-                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                        essentially unchanged. It was popularised in the 1960s
+                        with the release of
+                        Letraset sheets
                         containing Lorem Ipsum
-                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        passages, and more recently with desktop publishing
+                        software like Aldus
+                        PageMaker including
                         versions of Lorem
                         Ipsum.</p>
                     <blockquote>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod
+                        tempor incididunt ut
                         labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris
+                        nisi ut aliquip ex ea
                         commodo consequat.
                     </blockquote>
 
-                    <h4>The standard Lorem Ipsum passage, used since the 1500s</h4>
+                    <h4>The standard Lorem Ipsum passage, used since the
+                        1500s</h4>
 
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod
+                        tempor incididunt ut
                         labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris
+                        nisi ut aliquip ex ea
                         commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore
+                        eu fugiat nulla
                         pariatur. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit
+                        anim id est
                         laborum."</p>
 
-                    <h4>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h4>
+                    <h4>Section 1.10.32 of "de Finibus Bonorum et Malorum",
+                        written by Cicero in 45
+                        BC</h4>
 
-                    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                    <p>"Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium
+                        doloremque
                         laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                        eaque ipsa quae ab illo inventore veritatis et quasi
+                        architecto beatae vitae
+                        dicta sunt
                         explicabo. Nemo enim ipsam
-                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                        voluptatem quia voluptas sit aspernatur aut odit aut
+                        fugit, sed quia
+                        consequuntur magni dolores
                         eos qui ratione
-                        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                        voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                        dolorem ipsum quia
+                        dolor sit amet,
                         consectetur, adipisci
-                        velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                        velit, sed quia non numquam eius modi tempora incidunt
+                        ut labore et dolore
+                        magnam aliquam
                         quaerat voluptatem. Ut enim
-                        ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+                        ad minima veniam, quis nostrum exercitationem ullam
+                        corporis suscipit
+                        laboriosam, nisi ut
                         aliquid ex ea commodi
-                        consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                        consequatur? Quis autem vel eum iure reprehenderit qui
+                        in ea voluptate velit
+                        esse quam nihil
                         molestiae consequatur,
-                        vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                        vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur?"</p>
 
                     <h4>List style in action</h4>
                     <ul>
-                        <li>If you wish to succeed, you should use persistence as your good friend, experience as your
+                        <li>If you wish to succeed, you should use persistence
+                            as your good friend,
+                            experience as your
                             reference, prudence as
                             your brother and hope as your sentry.
                             <p>如果你希望成功，当以恒心为良友，以经验为参谋，以谨慎为兄弟，以希望为哨兵。</p>
                         </li>
-                        <li>Sometimes one pays most for the things one gets for nothing.
+                        <li>Sometimes one pays most for the things one gets for
+                            nothing.
                             <p>有时候一个人为不花钱得到的东西付出的代价最高。</p>
                         </li>
-                        <li>Only those who have the patience to do simple things perfectly ever acquire the skill to do
+                        <li>Only those who have the patience to do simple things
+                            perfectly ever
+                            acquire the skill to do
                             difficult things
                             easily.
                             <p>只有有耐心圆满完成简单工作的人，才能够轻而易举的完成困难的事。</p>
                         </li>
                     </ul>
 
-                    <h4>You may want to create a perfect <code>&lt;hr /&gt;</code> line, despite the fact that there
+                    <h4>You may want to create a perfect <code>&lt;hr
+                        /&gt;</code> line, despite the
+                        fact that there
                         will never have one
                     </h4>
                     <hr/>
                     <p><abbr title="法国作家罗切福考尔德">La Racheforcauld</abbr> said:
-                        <mark>"Few things are impossible in themselves; and it is often for want of will, rather than of
+                        <mark>"Few things are impossible in themselves; and it
+                            is often for want of
+                            will, rather than of
                             means, that man fails
                             to succeed".
                         </mark>
-                        You just need to follow the browser's behavior, and set a right <code>margin</code> to it。it
+                        You just need to follow the browser's behavior, and set
+                        a right
+                        <code>margin</code> to it。it
                         will works nice as the
-                        demo you're watching now. The following code is the best way to render typo in Chinese:
+                        demo you're watching now. The following code is the best
+                        way to render typo
+                        in Chinese:
                     </p>
                     <pre><code class="language-css">/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
 h1,h2,h3,h4,h5,h6 {
@@ -307,8 +400,10 @@ h5,h6{font-size:1em;}
 
                     <h2 id="section3">三、附录</h2>
 
-                    <h5 id="appendix1">1、<i class="serif">Typo.css</i> 排版偏重点</h5>
-                    <table class="ui table" summary="Typo.css 排版偏重点">
+                    <h5 id="appendix1">1、<i class="serif">Typo.css</i> 排版偏重点
+                    </h5>
+                    <table class="ui table"
+                           summary="Typo.css 排版偏重点">
                         <thead>
                         <tr>
                             <th>类型</th>
@@ -322,7 +417,9 @@ h5,h6{font-size:1em;}
                             <th rowspan="15">基础标签</th>
                             <td>标题</td>
                             <td><code>h1</code> ～ <code>h6</code></td>
-                            <td>全局不强制大小，<code>.typo</code> 中标题与其对应的内容应紧贴，并且有相应的大小设置</td>
+                            <td>全局不强制大小，<code>.typo</code>
+                                中标题与其对应的内容应紧贴，并且有相应的大小设置
+                            </td>
                         </tr>
                         <tr>
                             <td>上、下标</td>
@@ -342,17 +439,24 @@ h5,h6{font-size:1em;}
                         <tr>
                             <td>分割线</td>
                             <td><code>hr</code></td>
-                            <td>显示的 <code>padding</code> 和 <code>margin</code>正确</td>
+                            <td>显示的 <code>padding</code> 和 <code>margin</code>正确
+                            </td>
                         </tr>
                         <tr>
                             <td>列表</td>
-                            <td><code>ul</code>/<code>ol</code>/<code>dl</code></td>
-                            <td>在全局没有 <code>list-style</code>，在 .<code>typo</code> 中对齐正确</td>
+                            <td><code>ul</code>/<code>ol</code>/<code>dl</code>
+                            </td>
+                            <td>在全局没有 <code>list-style</code>，在
+                                .<code>typo</code> 中对齐正确
+                            </td>
                         </tr>
                         <tr>
                             <td>定义列表</td>
                             <td><code>dl</code></td>
-                            <td>全局 <code>padding</code> 和 <code>margin</code>为0， .<code>typo</code> 中对齐正确</td>
+                            <td>全局 <code>padding</code> 和 <code>margin</code>为0，
+                                .<code>typo</code>
+                                中对齐正确
+                            </td>
                         </tr>
                         <tr>
                             <td>选项</td>
@@ -362,12 +466,17 @@ h5,h6{font-size:1em;}
                         <tr>
                             <td>斜体</td>
                             <td><code>i</code></td>
-                            <td>只设置一种斜体，让 <code>em</code> 和 <code>cite</code> 显示为正体</td>
+                            <td>只设置一种斜体，让 <code>em</code> 和 <code>cite</code>
+                                显示为正体
+                            </td>
                         </tr>
                         <tr>
                             <td>强调</td>
                             <td><code>em</code></td>
-                            <td>在全局显示正体，在 <code>.typo</code> 中显示与 <code>b</code> 和 <code>strong</code> 的样式一致，为粗体</td>
+                            <td>在全局显示正体，在 <code>.typo</code> 中显示与 <code>b</code>
+                                和
+                                <code>strong</code> 的样式一致，为粗体
+                            </td>
                         </tr>
                         <tr>
                             <td>加强</td>
@@ -387,23 +496,30 @@ h5,h6{font-size:1em;}
                         <tr>
                             <td>表格</td>
                             <td><code>table</code></td>
-                            <td>全局不显示线条，在 <code>table</code> 中显示表格外框，并且表头有浅灰背景</td>
+                            <td>全局不显示线条，在 <code>table</code> 中显示表格外框，并且表头有浅灰背景
+                            </td>
                         </tr>
                         <tr>
                             <td>代码</td>
                             <td><code>pre</code>/<code>code</code></td>
-                            <td>字体使用 <code>courier</code> 系字体，保持与 <code>serif</code> 有比较一致的显示效果</td>
+                            <td>字体使用 <code>courier</code> 系字体，保持与
+                                <code>serif</code> 有比较一致的显示效果
+                            </td>
                         </tr>
                         <tr>
                             <th rowspan="5">特殊符号</th>
                             <td>着重号</td>
                             <td><em class="typo-em">在文字下加点</em></td>
-                            <td>在支持 <code>:after</code> 和 <code>:before</code> 的浏览器可以做渐进增强实现</td>
+                            <td>在支持 <code>:after</code> 和 <code>:before</code>
+                                的浏览器可以做渐进增强实现
+                            </td>
                         </tr>
                         <tr>
                             <td>专名号</td>
                             <td><u>林建锋</u></td>
-                            <td>专名号，有下划线，使用 <code>u</code> 或都 <code>.typo-u</code> 类</td>
+                            <td>专名号，有下划线，使用 <code>u</code> 或都
+                                <code>.typo-u</code> 类
+                            </td>
                         </tr>
                         <tr>
                             <td>破折号</td>
@@ -413,7 +529,8 @@ h5,h6{font-size:1em;}
                         <tr>
                             <td>人民币</td>
                             <td>&yen;</td>
-                            <td>使用两平等线的符号，或者 HTML 实体符号 <code>&amp;yen;</code></td>
+                            <td>使用两平等线的符号，或者 HTML 实体符号 <code>&amp;yen;</code>
+                            </td>
                         </tr>
                         <tr>
                             <td>删除符</td>
@@ -426,12 +543,16 @@ h5,h6{font-size:1em;}
                             <th rowspan="3">加强类</th>
                             <td>专名号</td>
                             <td><code>.typo-u</code></td>
-                            <td>由于 <code>u</code> 被 HTML4 放弃，在向后兼容上推荐使用 <code>.typo-u</code></td>
+                            <td>由于 <code>u</code> 被 HTML4 放弃，在向后兼容上推荐使用
+                                <code>.typo-u</code>
+                            </td>
                         </tr>
                         <tr>
                             <td>着重符</td>
                             <td><code>.typo-em</code></td>
-                            <td>利用 <code>:after</code> 和 <code>:before</code> 实现着重符</td>
+                            <td>利用 <code>:after</code> 和 <code>:before</code>
+                                实现着重符
+                            </td>
                         </tr>
                         <tr>
                             <td>清除浮动</td>
@@ -452,7 +573,9 @@ h5,h6{font-size:1em;}
                             <td colspan="3">（4）input 多余空间问题</td>
                         </tr>
                         <tr>
-                            <td colspan="3">（5）默认字体色彩，目前采用 <code>#333</code> 在各种浏览显示比较好</td>
+                            <td colspan="3">（5）默认字体色彩，目前采用 <code>#333</code>
+                                在各种浏览显示比较好
+                            </td>
                         </tr>
                         </tbody>
                     </table>
@@ -465,18 +588,26 @@ h5,h6{font-size:1em;}
                 </div>
                 <!--赞赏-->
                 <div class="ui center aligned basic segment">
-                    <button id="payBtn" class="ui orange basic circular button">赞赏</button>
+                    <button id="payBtn"
+                            class="ui orange basic circular button">
+                        赞赏
+                    </button>
                 </div>
                 <div class="ui payQR flowing popup transition hidden">
                     <div class="ui orange basic label">
-                        <div class="ui images" style="font-size: inherit!important;">
+                        <div class="ui images"
+                             style="font-size: inherit!important;">
                             <div class="image">
-                                <img src="static/images/wechat.png" alt="" class="ui rounded bordered image"
+                                <img src="static/images/wechat.png"
+                                     alt=""
+                                     class="ui rounded bordered image"
                                      style="width: 120px">
                                 <div>支付宝</div>
                             </div>
                             <div class="image">
-                                <img src="static/images/wechat.png" alt="" class="ui rounded bordered image"
+                                <img src="static/images/wechat.png"
+                                     alt=""
+                                     class="ui rounded bordered image"
                                      style="width: 120px">
                                 <div>微信</div>
                             </div>
@@ -496,13 +627,16 @@ h5,h6{font-size:1em;}
                         </ui>
                     </div>
                     <div class="five wide column">
-                        <img src="static/images/wechat.png" alt="" class="ui right floated rounded bordered image"
+                        <img src="static/images/wechat.png"
+                             alt=""
+                             class="ui right floated rounded bordered image"
                              style="width: 110px">
                     </div>
                 </div>
             </div>
             <!--留言-->
-            <div id="comment-container" class="ui bottom attached segment">
+            <div id="comment-container"
+                 class="ui bottom attached segment">
                 <div class="ui teal segment">
                     <div class="ui comments">
                         <h3 class="ui dividing header">Comments</h3>
@@ -533,7 +667,9 @@ h5,h6{font-size:1em;}
                                     <span class="date">Yesterday at 12:30AM</span>
                                 </div>
                                 <div class="text">
-                                    <p>This has been very useful for my research. Thanks as well!</p>
+                                    <p>This has been very useful for my
+                                        research. Thanks as
+                                        well!</p>
                                 </div>
                                 <div class="actions">
                                     <a class="reply">Reply</a>
@@ -581,19 +717,24 @@ h5,h6{font-size:1em;}
                 </div>
                 <form class="ui reply form">
                     <div class="field">
-                        <textarea class="m-opacity-mini m-text-gray">请输入评论信息...</textarea>
+                        <textarea
+                                class="m-opacity-mini m-text-gray">请输入评论信息...</textarea>
                     </div>
                     <div class="fields">
                         <div class="field m-mobile-wide m-margin-bottom-small">
                             <div class="ui left icon input">
                                 <i class="user icon"></i>
-                                <input type="text" name="nickname" placeholder="姓名">
+                                <input type="text"
+                                       name="nickname"
+                                       placeholder="姓名">
                             </div>
                         </div>
                         <div class="field m-mobile-wide m-margin-bottom-small">
                             <div class="ui left icon input">
                                 <i class="mail icon"></i>
-                                <input type="text" name="email" placeholder="邮箱">
+                                <input type="text"
+                                       name="email"
+                                       placeholder="邮箱">
                             </div>
                         </div>
                         <div class="field m-mobile-wide m-margin-bottom-small">
@@ -608,17 +749,22 @@ h5,h6{font-size:1em;}
         </div>
     </div>
     <!--功能按钮集合-->
-    <div class="m-fixed m-right-bottom m-padded">
+    <div id="toolBar"  class="m-fixed m-right-bottom m-padded">
         <div class="ui vertical icon buttons ">
-            <button id="toc-btn" class="ui teal  button" type="button">目录</button>
-            <a href="#comment-container" class="ui  button" type="button">留言</a>
-            <button class="ui teal button"><i class="wechat icon"></i></button>
-            <a href="#header-container" class="ui  button" type="button"><i class="chevron up icon"></i></a>
+            <button id="toc-btn" class="ui teal button m-text-thin" type="button">目录</button>
+            <a href="#comment-container" class="ui  button m-text-gray" type="button">留言</a>
+            <button id="wechat" class="ui teal button"><i class="wechat icon"></i></button>
+            <div id="toTop" class="ui button"><i class="chevron up icon"></i></div>
         </div>
     </div>
+    <!--弹出目录-->
     <div class="ui toc-container flowing popup transition hidden" style="width: 250px!important;">
-        <ol class="js-toc"></ol>
+        <ol class="js-toc">
+        </ol>
     </div>
+    <!--弹出二维码-->
+    <div id="qrcode" class="ui wechat-qr flowing popup transition hidden " style="width: 130px;"></div>
+
     <br>
     <br>
     <!--底部-->
@@ -628,43 +774,60 @@ h5,h6{font-size:1em;}
                 <div class="three wide column">
                     <div class="ui inverted link list">
                         <div class="item">
-                            <img src="static/images/wechat.png" class="ui rounded image" alt="" style="width: 100px">
+                            <img src="static/images/wechat.png"
+                                 class="ui rounded image"
+                                 alt=""
+                                 style="width: 100px">
                         </div>
                     </div>
 
                 </div>
                 <div class="four wide column">
-                    <h4 class="ui inverted header m-text-thin m-spaced">最新博客</h4>
+                    <h4 class="ui inverted header m-text-thin m-spaced">
+                        最新博客</h4>
                     <div class="ui inverted link list">
-                        <a href="#" class="item m-text-thin m-spaced ">用户故事 （User Story）</a>
-                        <a href="#" class="item m-text-thin m-spaced ">关于刻意练习的清单</a>
-                        <a href="#" class="item m-text-thin m-spaced ">失败要趁早</a>
+                        <a href="#"
+                           class="item m-text-thin m-spaced ">用户故事
+                            （User Story）</a>
+                        <a href="#"
+                           class="item m-text-thin m-spaced ">关于刻意练习的清单</a>
+                        <a href="#"
+                           class="item m-text-thin m-spaced ">失败要趁早</a>
 
                     </div>
                 </div>
                 <div class="four wide column">
-                    <h4 class="ui inverted header m-text-thin m-spaced ">联系我</h4>
+                    <h4 class="ui inverted header m-text-thin m-spaced ">
+                        联系我</h4>
                     <div class="ui inverted link list">
-                        <a href="#" class="item m-text-thin m-spaced ">QQ:925767666</a>
-                        <a href="#" class="item m-text-thin m-spaced ">Email:925767666@qq.com</a>
+                        <a href="#"
+                           class="item m-text-thin m-spaced ">QQ:925767666</a>
+                        <a href="#"
+                           class="item m-text-thin m-spaced ">Email:925767666@qq.com</a>
 
                     </div>
                 </div>
                 <div class="five wide column">
-                    <h4 class="ui inverted header m-text-thin m-spaced">Blog</h4>
+                    <h4 class="ui inverted header m-text-thin m-spaced">
+                        Blog</h4>
                     <p class="m-text-thin m-spaced m-darkgray">西南财经大学顶级工具人</p>
                 </div>
             </div>
             <div class="ui inverted section divider"></div>
-            <p class="m-text-thin m-spaced m-darkgray m-padded-top m-padded-bottom">Copyright © 2019 Blog Designed by
+            <p class="m-text-thin m-spaced m-darkgray m-padded-top m-padded-bottom">
+                Copyright © 2019
+                Blog Designed by
                 ZJD</p>
         </div>
     </footer>
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
     <script src="static/lib/prism/prism.js"></script>
     <script src="static/lib/tocbot/tocbot.js"></script>
+    <script src="static/lib/qrcode/qrcode.js"></script>
+    <script src="static/lib/waypoints/jquery.waypoints.js"></script>
     <script>
         $('#menuToggle').click(function () {
             $('.m-item').toggleClass('m-mobile-hide');
@@ -673,11 +836,6 @@ h5,h6{font-size:1em;}
             popup: $('.payQR.popup'),
             on: 'click',
             position: 'bottom center'
-        });
-        $('#toc-btn').popup({
-            popup: $('.toc-container.popup'),
-            on: 'click',
-            position: 'left center'
         });
         tocbot.init({
             // Where to render the table of contents.
@@ -689,6 +847,40 @@ h5,h6{font-size:1em;}
             // For headings inside relative or absolute positioned containers within content.
             hasInnerContainers: true,
         });
+        $('#toc-btn').popup({
+            popup: $('.toc-container.popup'),
+            on: 'click',
+            position: 'left center'
+        });
+        $('#wechat').popup({
+            popup: $('.wechat-qr.popup'),
+            position: 'left center'
+        });
+        $('#toTop').click(function () {
+            $(window).scrollTo(0, 500)
+        });
+        // var waypoint = new Waypoint({
+        //     element: document.getElementById('waypoint'),
+        //     handler: function (direction) {
+        //         if (direction == 'down') {
+        //             $('#toolBar').show(500);
+        //         }
+        //         else {
+        //             $('#toolBar').hide(500);
+        //         }
+        //     }
+        // })
     </script>
+    <script type="text/javascript">
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: "http://jindo.dev.naver.com/collie",
+            width: 110,
+            height: 110,
+            colorDark: "#000000",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.H
+        });
+    </script>
+
 </body>
 </html>
