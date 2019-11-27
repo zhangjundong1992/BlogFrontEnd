@@ -29,24 +29,24 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lib/waypoints" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaWork\Blog\FrontEnd\templates" />
+      <recent name="D:\Blog\FrontEnd\static\lib\tocbot" />
+      <recent name="D:\Blog\FrontEnd\static\lib\prism" />
+      <recent name="D:\Blog\FrontEnd\static\css" />
+      <recent name="D:\Blog\FrontEnd\static\lib\typo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Blog\FrontEnd\static\lib\waypoints" />
       <recent name="D:\Blog\FrontEnd\static\lib\qrcode" />
       <recent name="D:\Blog\FrontEnd\static\lib\tocbot" />
       <recent name="D:\Blog\FrontEnd\static\lib\typo" />
       <recent name="D:\Blog\FrontEnd\admin" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Blog\FrontEnd\static\lib\tocbot" />
-      <recent name="D:\Blog\FrontEnd\static\lib\prism" />
-      <recent name="D:\Blog\FrontEnd\static\css" />
-      <recent name="D:\Blog\FrontEnd\static\lib\typo" />
-      <recent name="D:\Blog\FrontEnd\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -61,36 +61,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.blog.html">
-    <configuration name="about.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/about.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="archives.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/archives.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="about.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/FrontEnd/templates/about.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="blog-input.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/admin/blog-input.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/blog.html" useBuiltInWebServerPort="true">
+    <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/FrontEnd/templates/blog.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="blogs.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontEnd/admin/blogs.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/FrontEnd/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.archives.html" />
       <item itemvalue="JavaScript Debug.about.html" />
       <item itemvalue="JavaScript Debug.blog-input.html" />
       <item itemvalue="JavaScript Debug.blogs.html" />
       <item itemvalue="JavaScript Debug.blog.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.blog.html" />
         <item itemvalue="JavaScript Debug.about.html" />
         <item itemvalue="JavaScript Debug.blogs.html" />
         <item itemvalue="JavaScript Debug.blog-input.html" />
-        <item itemvalue="JavaScript Debug.archives.html" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +115,8 @@
       <workItem from="1573796589725" duration="12966000" />
       <workItem from="1573951360589" duration="9616000" />
       <workItem from="1573964765620" duration="9417000" />
+      <workItem from="1574771609382" duration="587000" />
+      <workItem from="1574773203701" duration="31000" />
     </task>
     <servers />
   </component>
